@@ -1,20 +1,22 @@
-import React from 'react'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Featured from './components/Featured'
-import Signup from './components/Signup'    
-import Footer from './components/Footer' 
+import React from "react"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Featured from "./components/Featured"
+import Signup from "./components/Signup"
+import Footer from "./components/Footer"
 
 function App() {
+
   return (
     <>
       <Navbar />
       <Hero />
-      <Featured/>
-      <Signup/>
-      <Footer/>
+      <Featured />
+      <Signup />
+      <Footer />
     </>
-  );
+  )
+
 }
 
-export default App;
+export default App
